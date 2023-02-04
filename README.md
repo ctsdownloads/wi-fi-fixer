@@ -28,7 +28,7 @@ Updated..Added Power Save Indicator (useful if unsure):
 
 1 - git clone https://github.com/ctsdownloads/wi-fi-fixer.git
 
-2 - cd to wii-fi-fixer
+2 - cd wi-fi-fixer
 
 3 - chmod +x wifi-fixer-bash-script.sh
 
