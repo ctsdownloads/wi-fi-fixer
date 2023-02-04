@@ -22,3 +22,21 @@ WiFi Connected to the wrong WAP (router):
 
 Updated..Added Power Save Indicator (useful if unsure):
 [![asciicast](https://asciinema.org/a/557462.svg)](https://asciinema.org/a/557462)
+
+
+## Install
+
+- git clone https://github.com/ctsdownloads/wii-fi-fixer.git
+
+- cd to wii-fi-fixer
+
+- chmod +x wifi-fixer-bash-script.sh
+
+- Open wifi-fixer-bash-script.sh in a text editor, locate 
+assigned_wap="Your-SSID-Here"
+Change the SSID to the name of your WiFi access point. Save the file, close the text editor.
+
+- (In a terminal still) 
+sh wifi-fixer-bash-script.sh
+
+- Profit, it's all set and it does the heavy lifting for you from here.
