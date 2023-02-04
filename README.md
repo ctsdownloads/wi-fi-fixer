@@ -36,8 +36,7 @@ Updated..Added Power Save Indicator (useful if unsure):
 assigned_wap="Your-SSID-Here"
 Change the SSID to the name of your WiFi access point. Save the file, close the text editor.
 
-4 - (In a terminal still) 
-sh wifi-fixer-bash-script.sh
+4 - sh wifi-fixer-bash-script.sh
 
 5 - Profit, it's all set and it does the heavy lifting for you from here.
 
