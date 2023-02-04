@@ -2,12 +2,12 @@
 Linux Wi-Fi script for detecting and fixing common Intel wifi issues
 
 
-## Detects and fixes:
+## Detects and fixes common issues with Intel wifi on GNOME environments:
 
 - If the wifi radio is off.
 - Restarts NetworkManager (tested on Ubuntu/GNOME).
 - Airplane mode.
-- If modules are not loaded - detects and load them.
+- If modules are not loaded - detects and loads them.
 
 ## Examples
 
