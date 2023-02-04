@@ -26,17 +26,23 @@ Updated..Added Power Save Indicator (useful if unsure):
 
 ## Install
 
-- git clone https://github.com/ctsdownloads/wii-fi-fixer.git
+1 - git clone https://github.com/ctsdownloads/wii-fi-fixer.git
 
-- cd to wii-fi-fixer
+2 - cd to wii-fi-fixer
 
-- chmod +x wifi-fixer-bash-script.sh
+3 - chmod +x wifi-fixer-bash-script.sh
 
-- Open wifi-fixer-bash-script.sh in a text editor, locate 
+3 - Open wifi-fixer-bash-script.sh in a text editor, locate 
 assigned_wap="Your-SSID-Here"
 Change the SSID to the name of your WiFi access point. Save the file, close the text editor.
 
-- (In a terminal still) 
+4 - (In a terminal still) 
 sh wifi-fixer-bash-script.sh
 
-- Profit, it's all set and it does the heavy lifting for you from here.
+5 - Profit, it's all set and it does the heavy lifting for you from here.
+
+## Troubleshooting
+
+- Can't find NetworkManager errors? This was tested on Ubuntu GNOME. Should work on any GNOME desktop (MATE?). You can edit and replace sudo systemctl restart NetworkManager with whatever works best for your desktop environment.
+
+- It's telling me i'm on the wrong WAP! Well, are you? If you didn't edit the file and follow step 3 above, do so.
