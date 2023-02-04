@@ -26,7 +26,7 @@ Updated..Added Power Save Indicator (useful if unsure):
 
 ## Install
 
-1 - git clone https://github.com/ctsdownloads/wii-fi-fixer.git
+1 - git clone https://github.com/ctsdownloads/wi-fi-fixer.git
 
 2 - cd to wii-fi-fixer
 
