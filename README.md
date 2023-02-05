@@ -1,4 +1,4 @@
-# wii-fi-fixer
+# wi-fi-fixer
 Linux Wi-Fi script for detecting and fixing common Intel wifi issues
 
 
