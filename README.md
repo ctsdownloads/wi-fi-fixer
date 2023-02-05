@@ -1,6 +1,8 @@
 # wi-fi-fixer
 Linux Wi-Fi script for detecting and fixing common Intel wifi issues
 
+## (Check back periodically for updates) 
+
 
 ## Detects and fixes common issues with Intel wifi on GNOME environments:
 
