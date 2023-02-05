@@ -10,8 +10,9 @@ signal_strength=$(iw dev $interface link | awk '/signal/ {print $2}')
 if [ -z "$signal_strength" ]; then
   echo "Signal strength is not available, attempting to refresh Wi-Fi radio, NetworkManager, iwlwifi and iwlmvm modules...\n\n"
   nmcli radio wifi on
-  sudo rmmod iwlmvm
-  sudo modprobe iwlmvm
+  sudo rfkill unblock wifi
+  sudo rmmod iwlmvm iwlwifi
+  sudo modprobe iwlmvm iwlwifi
   sudo systemctl restart NetworkManager
   sleep 5
   signal_strength=$(iw dev $interface link | awk '/signal/ {print $2}')
