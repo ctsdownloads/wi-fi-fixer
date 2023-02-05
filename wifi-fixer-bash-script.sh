@@ -30,7 +30,7 @@ else
 fi
 
 # Check signal quality
-signal_quality=$(iwconfig $interface | awk '/Quality/ {print $2}' | cut -d= -f2)
+signal_quality=$(nmcli d wifi list ifname $interface | grep '*' | awk '{print $9}')/100
 echo "Signal quality is: $signal_quality\n\n"
 
 for interface in $(iw dev | awk '$1=="Interface"{print $2}'); do echo $interface; iw dev $interface get power_save; done
