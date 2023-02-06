@@ -13,7 +13,7 @@ Linux Wi-Fi script for detecting and fixing common Intel wifi issues
 
 ## Examples
 
-In Airport mode:
+In Airplane mode:
 [![asciicast](https://asciinema.org/a/557456.svg)](https://asciinema.org/a/557456)
 
 No driver modules loaded for Intel wireless:
