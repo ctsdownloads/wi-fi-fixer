@@ -10,8 +10,8 @@ Linux Wi-Fi script for detecting and fixing common Intel wifi issues
 - Restarts NetworkManager (tested on Ubuntu/GNOME).
 - Airplane mode.
 - If modules are not loaded - detects and loads them.
-- Once setup manuaklly in the script, will tell you if you're connected to the wrong WI-Fi WAP.
-(Do a Ctrl F and look for assigned_wap="Your-SSID-Here", change to Wi-Fi WAP in quotes, save the file)
+- Once setup manually in the script, it will tell you if you're connected to the wrong Wi-Fi WAP.
+(Do a Ctrl F and look for assigned_wap="Your-SSID-Here", change to your default Wi-Fi WAP in quotes, save the file)
 
 ## Examples
 
