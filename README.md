@@ -12,7 +12,7 @@ Linux Wi-Fi script for detecting and fixing common Intel wifi issues
 - If modules are not loaded - detects and loads them.
 - Once setup manually in the script, it will tell you if you're connected to the wrong Wi-Fi WAP.
 
-^^ Do a Ctrl F and look for assigned_wap="Your-SSID-Here", change to your default Wi-Fi WAP in quotes, save the file - this will be [automatic in the near future](https://github.com/ctsdownloads/wi-fi-fixer/wiki/To-Do)
+^^ **Set default WAP:** Open the wifi-fixer-bash-script.sh script in a text editor. Do a Ctrl F and look for assigned_wap="Your-SSID-Here", change to your default Wi-Fi WAP in quotes, save the file - this will be [automatic in the near future](https://github.com/ctsdownloads/wi-fi-fixer/wiki/To-Do)
  ^^^
 
 ## Examples
