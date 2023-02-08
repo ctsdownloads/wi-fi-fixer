@@ -28,7 +28,7 @@ Updated..Added Power Save Indicator (useful if unsure):
 [![asciicast](https://asciinema.org/a/557462.svg)](https://asciinema.org/a/557462)
 
 
-## Install
+## Install and configure
 
 1 - git clone https://github.com/ctsdownloads/wi-fi-fixer.git
 
@@ -40,9 +40,15 @@ Updated..Added Power Save Indicator (useful if unsure):
 assigned_wap="Your-SSID-Here"
 Change the SSID to the name of your WiFi access point. Save the file, close the text editor.
 
-4 - sh wifi-fixer-bash-script.sh
 
-5 - Profit, it's all set and it does the heavy lifting for you from here.
+## Runn the script easily
+
+1 - From a terminal, paste:
+```
+cd wi-fi-fixer/ && chmod +x wifi-fixer-bash-script.sh && sh wifi-fixer-bash-script.sh
+```
+
+2- Profit, it's all set and it does the heavy lifting for you from here.
 
 ## Troubleshooting
 
