@@ -43,7 +43,7 @@ assigned_wap="Your-SSID-Here"
 Change the SSID to the name of your WiFi access point. Save the file, close the text editor.
 
 
-## Runn the script easily
+## Run the script easily
 
 1 - From a terminal, paste:
 ```
