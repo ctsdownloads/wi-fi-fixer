@@ -33,7 +33,7 @@ Updated..Added Power Save Indicator (useful if unsure):
 
 ## From a computer that has internet (Just copy, paste and enter - that's it!)
 
-- Copy and paste [ALL of the contents of this link](https://gist.githubusercontent.com/ctsdownloads/662eda6d544403aa0392f87c8a9ae7ae/raw/2b6a08c3d60e6da53357bbb387a9bfc41f398d2e/wifi-fixer-downloader) in the terminal. Just Ctrl A all of it.
+- Copy and paste [ALL of the contents of this link](https://gist.githubusercontent.com/ctsdownloads/662eda6d544403aa0392f87c8a9ae7ae/raw/2b6a08c3d60e6da53357bbb387a9bfc41f398d2e/wifi-fixer-downloader){:target="_blank"} in the terminal. Just Ctrl A all of it.
 - Follow the directions that appear after the command is run.
 
 
