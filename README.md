@@ -17,7 +17,9 @@ Linux Wi-Fi script for detecting and fixing common Intel wifi issues
 
 ## From a computer that has internet (Just copy, paste and enter - that's it!)
 
-- Copy and paste [ALL of the contents of this link](https://gist.githubusercontent.com/ctsdownloads/662eda6d544403aa0392f87c8a9ae7ae/raw/2b6a08c3d60e6da53357bbb387a9bfc41f398d2e/wifi-fixer-downloader) in the terminal. Just Ctrl A all of it.
+- Copy and paste from Just Ctrl A all of it.
+<script src="https://gist.github.com/ctsdownloads/41188544c0b47fb1ed87abddff065245.js"></script>
+
 - Follow the directions that appear after the command is run.
 
 
