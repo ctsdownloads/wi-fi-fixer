@@ -3,7 +3,7 @@
 # Detect the active wireless interface name
 interface=$(iw dev | awk '/Interface/ {print $2}')
 
-echo "The name of your wireless interface is: $interface"
+echo "\033[1;33mThe name of your wireless interface is: $interface\033[0m \n"
 
 # Check wireless signal strength and restart radio
 signal_strength=$(iw dev $interface link | awk '/signal/ {print $2}')
@@ -19,7 +19,7 @@ if [ -z "$signal_strength" ]; then
   if [ -z "$signal_strength" ]; then
     echo  "Unable to refresh Wi-Fi module, please check your configuration\n\n"
     if lsmod | grep iwlwifi > /dev/null; then
-      echo "The \033[1miwlwifi and iwlmvm modules are loaded\033[0m, but Wi-Fi should be connected or at least ready to connect. If not, check Network settings and try reconnecting to your Wi-Fi router. If it's still not successful, try the Linux kernel \033[1mprevious to $(uname -r)\033[0m to see if that works.\n\n"
+      echo "The \033[1miwlwifi and iwlmvm modules are loaded\033[0m, but Wi-Fi should be connected or at least ready to connect. If not, check Network settings and try reconnecting to your Wi-Fi router. \n If it's still not successful, try the Linux kernel \033[1mprevious to $(uname -r)\033[0m to see if that works.\n\n"
     fi
     exit 1
   else
@@ -43,7 +43,7 @@ if [ "$connected_wap" != "$assigned_wap" ]; then
   echo "\033[1mEven if you have a working connection, check your Wi-Fi settings.\033[0m\n\n"
   exit 1
 else
-  echo "\n\n\033[1mConnected successfully to this WAP: $connected_wap\033[0m"
+  echo "\n\n\033[1mConnected successfully to this WAP: $connected_wap\033[0m \n"
 fi
 
 
