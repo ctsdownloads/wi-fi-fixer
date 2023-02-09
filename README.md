@@ -15,25 +15,9 @@ Linux Wi-Fi script for detecting and fixing common Intel wifi issues
 
 
 
-
-## Examples
-
-In Airplane mode:
-[![asciicast](https://asciinema.org/a/557456.svg)](https://asciinema.org/a/557456)
-
-No driver modules loaded for Intel wireless:
-[![asciicast](https://asciinema.org/a/557452.svg)](https://asciinema.org/a/557452)
-
-WiFi Connected to the wrong WAP (router):
-[![asciicast](https://asciinema.org/a/557458.svg)](https://asciinema.org/a/557458)
-
-Updated..Added Power Save Indicator (useful if unsure):
-[![asciicast](https://asciinema.org/a/557462.svg)](https://asciinema.org/a/557462)
-
-
 ## From a computer that has internet (Just copy, paste and enter - that's it!)
 
-- Copy and paste [ALL of the contents of this link](https://gist.githubusercontent.com/ctsdownloads/662eda6d544403aa0392f87c8a9ae7ae/raw/2b6a08c3d60e6da53357bbb387a9bfc41f398d2e/wifi-fixer-downloader){:target="_blank"} in the terminal. Just Ctrl A all of it.
+- Copy and paste [ALL of the contents of this link](https://gist.githubusercontent.com/ctsdownloads/662eda6d544403aa0392f87c8a9ae7ae/raw/2b6a08c3d60e6da53357bbb387a9bfc41f398d2e/wifi-fixer-downloader) in the terminal. Just Ctrl A all of it.
 - Follow the directions that appear after the command is run.
 
 
@@ -52,3 +36,22 @@ Updated..Added Power Save Indicator (useful if unsure):
 - Can't find NetworkManager errors? This was tested on Ubuntu GNOME. Should work on any GNOME desktop (MATE?). You can edit and replace sudo systemctl restart NetworkManager with whatever works best for your desktop environment.
 
 - It's telling me I'm on the wrong WAP! Well, are you? If you didn't edit the file and follow step 3 above, do so.
+
+
+
+
+
+## Examples
+
+In Airplane mode:
+[![asciicast](https://asciinema.org/a/557456.svg)](https://asciinema.org/a/557456)
+
+No driver modules loaded for Intel wireless:
+[![asciicast](https://asciinema.org/a/557452.svg)](https://asciinema.org/a/557452)
+
+WiFi Connected to the wrong WAP (router):
+[![asciicast](https://asciinema.org/a/557458.svg)](https://asciinema.org/a/557458)
+
+Updated..Added Power Save Indicator (useful if unsure):
+[![asciicast](https://asciinema.org/a/557462.svg)](https://asciinema.org/a/557462)
+
