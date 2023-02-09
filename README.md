@@ -33,15 +33,9 @@ Updated..Added Power Save Indicator (useful if unsure):
 
 ## From a computer that has internet (Just copy, paste and enter - that's it!)
 
-- Open a terminal.
-- Copy/paste/enter key with the code below.
-- Follow the instructions that appear on your screen.
+- Copy and paste [ALL of the contents of this link](https://gist.githubusercontent.com/ctsdownloads/662eda6d544403aa0392f87c8a9ae7ae/raw/2b6a08c3d60e6da53357bbb387a9bfc41f398d2e/wifi-fixer-downloader) in the terminal. Just Ctrl A all of it.
+- Follow the directions that appear after the command is run.
 
-    sudo apt-get install git -y > /dev/null && git clone https://github.com/ctsdownloads/wi-fi-fixer.git && cd wi-fi-fixer && chmod +x wifi-fixer-bash-script.sh && wget https://gist.githubusercontent.com/ctsdownloads/41188544c0b47fb1ed87abddff065245/raw/52dceae3c33093ad51e2898a3bcc092122d9ebc5/unpack-commands.txt -P ~/wi-fi-fixer && echo -e "\033[1;33mEnter your wifi SSID, then press Enter: \033[0m" && read ssid && [ -f wifi-fixer-bash-script.sh ] && sed -i "s/assigned_wap=.*/assigned_wap="$ssid"/" wifi-fixer-bash-script.sh && cd ~/ && tar -czvf wi-fi-fixer.tar.gz wi-fi-fixer/* > /dev/null && sleep 2 && rm -rf wi-fi-fixer && echo -e "- \033[1;33mYour wi-fi-fixer is packed and ready to be copied to a flash drive.\033[0m \n
-    - Copy wi-fi-fixer.tar.gz located in your /home/$USER directory to a USB flash drive. \n
-    - On the laptop without Wi-Fi, plugin your USB flash drive containing wi-fi-fixer.tar.gz, copy it to the laptop's home directory. \n
-    - Right click and extract this wi-fi-fixer.tar.gz to your home directory. \n
-    - Inside the wi-fi-fixer directory, look for unpack-commands.txt - open it and copy/paste that command to fix your Wi-Fi on the laptop.\n"
 
 
 ## From the computer that needs the Wi-Fi fixed (Just copy, paste and enter - that's it!)
