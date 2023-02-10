@@ -23,8 +23,8 @@ Linux Wi-Fi script for detecting and fixing common Intel wifi issues
 sudo apt-get install git -y > /dev/null && git clone https://github.com/ctsdownloads/wi-fi-fixer.git && cd wi-fi-fixer && chmod +x wifi-fixer-bash-script.sh && wget https://gist.githubusercontent.com/ctsdownloads/8180ae983ab1ae8b20079c9843dc0589/raw/54d7867122eda58b265a53fc98c1f202111ddb33/unpack-commands.txt -P ~/wi-fi-fixer && echo -e "\033[1;33mEnter your wifi SSID, then press Enter: \033[0m" && read ssid && [ -f wifi-fixer-bash-script.sh ] && sed -i "s/assigned_wap=.*/assigned_wap="$ssid"/" wifi-fixer-bash-script.sh && cd ~/ && echo -e "- \033[1;33mYour wi-fi-fixer is dowloaded and ready to be copied to a flash drive.\033[0m \n
 - If moving this to a flash drive, copy wi-fi-fixer directory located in your /home/$USER directory to a USB flash drive. \n
 - On the laptop without Wi-Fi, plugin your USB flash drive containing the wi-fi-fixer directory, copy it to the laptop's home directory that is having Wi-Fi issues. \n
-- Inside the wi-fi-fixer directory, look for unpack-commands.txt - open it and copy/paste that command to fix your Wi-Fi on the laptop.\n"
-- Insert USB flash drive, **copy wi-fi-fixer** onto the USB flash drive. \n"
+- Inside the wi-fi-fixer directory, look for unpack-commands.txt - open it and copy/paste that command to fix your Wi-Fi on the laptop.\n
+- Insert USB flash drive, copy the **wi-fi-fixer** directory onto the USB flash drive."
 ```
 
 
