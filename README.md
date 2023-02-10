@@ -33,6 +33,7 @@ sudo apt-get install git -y > /dev/null && git clone https://github.com/ctsdownl
 
 - Now insert USB flash drive.
 - Copy the wi-fi-fixer directory to the laptop's home directory.
+- - This command below is **in your wi-fi-fixer directory for non-Internet connected access**, look for unpack-commands.txt
 - Open a terminal and paste in the following:
 
 ```console
@@ -40,7 +41,7 @@ cd wi-fi-fixer/ && chmod +x wifi-fixer-bash-script.sh && sh wifi-fixer-bash-scri
 ```
 [![asciicast](https://asciinema.org/a/558720.svg)](https://asciinema.org/a/558720)
 
-- This command is also in your wi-fi-fixer directory for non-Internet connected access, look for unpack-commands.txt
+
 
 ## Troubleshooting
 
