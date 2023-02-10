@@ -26,8 +26,7 @@ sudo apt-get install git -y > /dev/null && git clone https://github.com/ctsdownl
 - Inside the wi-fi-fixer directory, look for unpack-commands.txt - open it and copy/paste that command to fix your Wi-Fi on the laptop.\n
 - Insert USB flash drive, copy the **wi-fi-fixer** directory onto the USB flash drive."
 ```
-[![asciicast](https://asciinema.org/a/558719)
-
+[![asciicast](https://asciinema.org/a/558719.svg)](https://asciinema.org/a/558719)
 
 
 ## From the computer that needs the Wi-Fi fixed (Just copy, paste and enter - that's it!)
@@ -39,8 +38,7 @@ sudo apt-get install git -y > /dev/null && git clone https://github.com/ctsdownl
 ```console
 cd wi-fi-fixer/ && chmod +x wifi-fixer-bash-script.sh && sh wifi-fixer-bash-script.sh
 ```
-[![asciicast](https://asciinema.org/a/558720)
-
+[![asciicast](https://asciinema.org/a/558720.svg)](https://asciinema.org/a/558720)
 
 
 
