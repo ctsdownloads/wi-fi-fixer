@@ -44,12 +44,18 @@ cd wi-fi-fixer/ && chmod +x wifi-fixer-bash-script.sh && sh wifi-fixer-bash-scri
 
 
 
-## Troubleshooting
+## Troubleshooting and questions
 
 - Can't find NetworkManager errors? This was tested on Ubuntu GNOME. Should work on any GNOME desktop (MATE?). You can edit and replace sudo systemctl restart NetworkManager with whatever works best for your desktop environment.
 
 - It's telling me I'm on the wrong WAP! Well, are you? If you didn't edit the file and follow step 3 above, do so.
 
+- Can I run this on a system where the wi-fi-fixer script is already setup on? Can I even create my own laucher? Sure! To run it, just use this command:
+
+```console
+cd wi-fi-fixer/ && sh wifi-fixer-bash-script.sh
+```
+Note: If you choose to create a launcher, you would have it pointing to the above command.
 
 
 
