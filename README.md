@@ -11,6 +11,7 @@ Linux Wi-Fi script for detecting and fixing common Intel wifi issues
 - Restarts NetworkManager if down, then fixes it by restarting NetworkManager (GNOME).
 - Checks for Airplane mode. turns it off.
 - Checks for Intel wifi modules, if not loaded - detects and loads them.
+- NEW! Is a VPN causing problems? Checks for VPNs in case it's blocking something.
 - Once setup, this little script will tell you if you're connected to the wrong Wi-Fi WAP.
 
 
@@ -54,6 +55,12 @@ cd wi-fi-fixer/ && chmod +x wifi-fixer-bash-script.sh && sh wifi-fixer-bash-scri
 
 
 ## Examples
+
+NEW! VPN Checks - installed, not turn on:
+[![asciicast](https://asciinema.org/a/558722.svg)](https://asciinema.org/a/558722)
+
+NEW! VPN Checks - installed and it IS turn on:
+[![asciicast](https://asciinema.org/a/558723.svg)](https://asciinema.org/a/558723)
 
 In Airplane mode:
 [![asciicast](https://asciinema.org/a/557456.svg)](https://asciinema.org/a/557456)
