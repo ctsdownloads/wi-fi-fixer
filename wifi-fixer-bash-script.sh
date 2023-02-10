@@ -33,6 +33,18 @@ fi
 signal_quality=$(nmcli d wifi list ifname $interface | grep '*' | awk '{print $9}')/100
 echo "Signal quality is: $signal_quality\n"
 for interface in $(iw dev | awk '$1=="Interface"{print $2}'); do echo $interface; iw dev $interface get power_save; done
+if command -v openvpn > /dev/null; then
+  echo "\033[1;33mOpenVPN is installed.\033[0m"
+else
+  echo "OpenVPN is not installed."
+fi
+
+# Check if any VPN connection is active
+if ip addr show tun0 > /dev/null 2>&1; then
+  echo "\033[1;33mA VPN connection is active.\033[0m"
+else
+  echo "No VPN connection is active."
+fi
 # Check if connected to the right WAP, change assisgned wap to your prefered WAP where it says Your-SSID-Here.
 connected_wap=$(iw dev $interface link | awk '/SSID/ {print $2}')
 assigned_wap=Slower
