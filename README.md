@@ -6,7 +6,7 @@ Linux Wi-Fi script for detecting and fixing common Intel wifi issues
 
 ## Detects and fixes common issues with Intel wifi on GNOME environments:
 
-- Logic provided to be downloaded on one computer, then run onto another.
+- Logic provided to be downloaded on one computer, then run on another needing the Wi-Fi fixed.
 - Checks if the wifi radio is off, turns it on.
 - Restarts NetworkManager if down, then fixes it by restarting NetworkManager (GNOME).
 - Checks for Airplane mode. turns it off.
@@ -17,16 +17,16 @@ Linux Wi-Fi script for detecting and fixing common Intel wifi issues
 
 ## From a computer that has internet (Just copy, paste and enter - that's it!)
 
-- [Open this Gist link](https://gist.githubusercontent.com/ctsdownloads/662eda6d544403aa0392f87c8a9ae7ae/raw/2b6a08c3d60e6da53357bbb387a9bfc41f398d2e/wifi-fixer-downloader) , Ctrl A, paste the entire code block into a terminal. It's okay to include the comments, still works.
-
-- Follow the directions that appear after the command is run.
+- Open a terminal, paste in this command:
+```sudo apt-get install git -y > /dev/null && git clone https://github.com/ctsdownloads/wi-fi-fixer.git```
+- Insert USB flash drive, **copy wi-fi-fixer** onto the USB flash drive.
 
 
 
 ## From the computer that needs the Wi-Fi fixed (Just copy, paste and enter - that's it!)
 
-- Insert USB flash drive with your newly created/customized wi-fi-fixer.tar.gz file.
-- Copy it to the laptop's home directory that you would like to have Wi-Fi fixed on.
+- Now insert USB flash drive.
+- Copy the wi-fi-fixer directory to the laptop's home directory.
 - Open a terminal and paste in the following:
 
 ```cd wi-fi-fixer/ && chmod +x wifi-fixer-bash-script.sh && sh wifi-fixer-bash-script.sh```
