@@ -6,6 +6,7 @@ Linux Wi-Fi script for detecting and fixing common Intel wifi issues
 
 ## Detects and fixes common issues with Intel wifi on GNOME environments:
 
+- **Copy and paste twice to get this working, that's it!**
 - Logic provided to be downloaded on one computer, then run on another needing the Wi-Fi fixed.
 - Checks if the wifi radio is off, turns it on.
 - Restarts NetworkManager if down, then fixes it by restarting NetworkManager (GNOME).
