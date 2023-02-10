@@ -40,7 +40,7 @@ cd wi-fi-fixer/ && chmod +x wifi-fixer-bash-script.sh && sh wifi-fixer-bash-scri
 ```
 [![asciicast](https://asciinema.org/a/558720.svg)](https://asciinema.org/a/558720)
 
-
+- This command is also in your wi-fi-fixer directory for non-Internet connected access, look for unpack-commands.txt
 
 ## Troubleshooting
 
