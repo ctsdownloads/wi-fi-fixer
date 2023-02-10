@@ -57,20 +57,32 @@ cd wi-fi-fixer/ && chmod +x wifi-fixer-bash-script.sh && sh wifi-fixer-bash-scri
 ## Examples
 
 NEW! VPN Checks - installed, not turn on:
+
 [![asciicast](https://asciinema.org/a/558722.svg)](https://asciinema.org/a/558722)
 
+
 NEW! VPN Checks - installed and it IS turn on:
+
 [![asciicast](https://asciinema.org/a/558723.svg)](https://asciinema.org/a/558723)
 
+
 In Airplane mode:
+
 [![asciicast](https://asciinema.org/a/557456.svg)](https://asciinema.org/a/557456)
 
+
 No driver modules loaded for Intel wireless:
+
 [![asciicast](https://asciinema.org/a/557452.svg)](https://asciinema.org/a/557452)
 
+
 WiFi Connected to the wrong WAP (router):
+
 [![asciicast](https://asciinema.org/a/557458.svg)](https://asciinema.org/a/557458)
 
+
 Updated..Added Power Save Indicator (useful if unsure):
+
 [![asciicast](https://asciinema.org/a/557462.svg)](https://asciinema.org/a/557462)
+
 
