@@ -22,7 +22,7 @@ Linux Wi-Fi script for detecting and fixing common Intel wifi issues
 - If moving this to a flash drive, copy wi-fi-fixer directory located in your /home/$USER directory to a USB flash drive. \n
 - On the laptop without Wi-Fi, plugin your USB flash drive containing the wi-fi-fixer directory, copy it to the laptop's home directory that is having Wi-Fi issues. \n
 - Inside the wi-fi-fixer directory, look for unpack-commands.txt - open it and copy/paste that command to fix your Wi-Fi on the laptop.\n"```
-- Insert USB flash drive, **copy wi-fi-fixer** onto the USB flash drive.
+- Insert USB flash drive, **copy wi-fi-fixer** onto the USB flash drive.```
 
 
 
