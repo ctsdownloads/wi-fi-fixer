@@ -1,4 +1,4 @@
-# wi-fi-fixer
+# wi-fi-fixer Ubuntu Edition
 Linux Wi-Fi script for detecting and fixing common Intel wifi issues
 
 ## (Check back periodically for updates) 
