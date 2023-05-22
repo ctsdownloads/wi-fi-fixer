@@ -33,7 +33,7 @@ fi
 
 # Check signal quality
 signal_quality=$(nmcli d wifi list ifname $interface | grep '*' | awk '{print $9}')/100
-echo "Signal quality is: $signal_quality\n"
+echo -e "\033[1;33mSignal quality is: $signal_quality \033[0m"
 
 for interface in $(iw dev | awk '$1=="Interface"{print $2}'); do
   echo $interface
