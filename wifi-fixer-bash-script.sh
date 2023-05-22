@@ -1,5 +1,5 @@
 #!/bin/bash
-# Detect the active wireless interface name
+# Detect the active wireless interface name 
 interface=$(iw dev | awk '/Interface/ {print $2}')
 echo -e "\033[1;33mThe name of your wireless interface is: $interface\033[0m \n"
 
